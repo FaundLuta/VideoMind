@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Database
+*.db
+*.db-wal
+*.db-shm
+
+# PyInstaller and Build artifacts
+build/
+dist/
+*.spec
+
+# Binaries (FFmpeg)
+ffmpeg.exe
+ffprobe.exe
+
+# Installer output
+installer/

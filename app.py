@@ -1,19 +1,5 @@
-"""
-VideoMind — AI Video Summarizer + Chat Assistant
-================================================
-Requirements:
-    pip install openai-whisper yt-dlp groq python-dotenv
 
-System:
-    macOS:   brew install ffmpeg
-    Ubuntu:  sudo apt install ffmpeg
-    Windows: https://ffmpeg.org/download.html
-
-.env file (place next to this script):
-    GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxx
-"""
-
-# ─────────────────────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────
 import os, sqlite3, tempfile, subprocess, threading, webbrowser, uuid, textwrap, shutil, sys
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox, scrolledtext
